@@ -6,8 +6,8 @@ global $PLUGINS_PATH, $MODULES_PATH;
 $post = new nbrTablePost();
 $post->table  = 'sysModules';
 
-$post->AddFieldString('Name',             'Gerenciador de ArquivosX');
-$post->AddFieldString('Description',      'Gerenciador de ArquivosX');
+$post->AddFieldString('Name',             'Gerenciador de Arquivos');
+$post->AddFieldString('Description',      'Gerenciador de Arquivos');
 $post->AddFieldString('Path',             'fileManager');
 $post->AddFieldString('Icon',             'pastas.png');
 $post->AddFieldBoolean('Actived',         true);
